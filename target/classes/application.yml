@@ -1,0 +1,10 @@
+server:
+  port: 8188
+  servlet:
+    context-path: /myproj
+    session:
+      cookie:
+        max-age: 100
+      timeout: 100
+  tomcat:
+    uri-encoding: UTF-8
